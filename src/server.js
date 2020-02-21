@@ -14,13 +14,11 @@ const urlStruct = {
     '/': htmlHandler.getIndex,
     '/style.css': htmlHandler.getCSS,
     '/getUsers': jsonHandler.getUsers,
-    '/notReal': jsonHandler.notReal,
-    notFound: jsonHandler.notFound,
+    notFound: jsonHandler.notReal,
   },
   HEAD: {
     '/getUsers': jsonHandler.getUsersMeta,
-    '/notReal': jsonHandler.notRealMeta,
-    notFound: jsonHandler.getUsersMeta,
+    notFound: jsonHandler.notRealMeta,
   },
 };
 
